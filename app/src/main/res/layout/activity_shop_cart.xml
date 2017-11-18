@@ -47,7 +47,7 @@
 
         <TextView
             android:textColor="@color/white_c"
-            android:background="#855090"
+            android:background="#E14D33"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="2"
