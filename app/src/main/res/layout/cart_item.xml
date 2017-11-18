@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <CheckBox
+        android:id="@+id/lv_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:button="@drawable/check_box_style"
+        android:scaleX="0.5"
+        android:scaleY="0.5" />
+
+    <ImageView
+        android:id="@+id/lv_iamge"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/lv_thingName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上档次的T恤" />
+
+        <TextView
+            android:id="@+id/lv_thingColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="黑白色" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/lv_y"
+                android:text="￥" />
+
+            <TextView
+
+                android:layout_toRightOf="@+id/lv_y"
+                android:id="@+id/lv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30.6" />
+
+            <TextView
+                android:id="@+id/lv_x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/lv_price"
+                android:text="x" />
+
+            <TextView
+                android:id="@+id/lv_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/lv_x"
+                android:text="1"
+
+
+                />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

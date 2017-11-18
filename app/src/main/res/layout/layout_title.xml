@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="#855090"
+    android:orientation="horizontal">
+
+
+    <!--返回按钮-->
+
+    <LinearLayout
+        android:id="@+id/ll_back"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/header_back" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:text="返回"
+            android:textColor="@color/white_c" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:gravity="center|center_vertical"
+        android:text="购物车"
+        android:textColor="@color/white_c"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/bt_header_right"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center|center_horizontal"
+        android:text="编辑"
+        android:textColor="@color/white_c" />
+
+
+</LinearLayout>
